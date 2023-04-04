@@ -34,13 +34,19 @@ day.each(function () {
   console.log(hourOfDay, currentTime)
   if (hourOfDay == currentTime){
     $(this).addClass("present")
+    console.log("present")
   }
+  //assigns present to class if hourOfDay loosely equals currentTime
   else if (hourOfDay < currentTime){
   $(this).addClass("past")
+  console.log("past")
   }
+  //assigns past to class to hours that are less than currentTime
   else if (hourOfDay > currentTime){
     $(this).addClass("future")
+    console.log("future")
   }
+  //assigns future to class if hours are greater than currentTime
 })
 //compares if the hourOfDay meets the currentTime and if it does assigns it the present class.
 
