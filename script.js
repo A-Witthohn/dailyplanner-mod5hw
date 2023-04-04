@@ -19,7 +19,7 @@ $(function () {
 var currentTime = dayjs().hour();
 console.log(currentTime)
 
-//logs Military Time of just the hour of the day.
+//logs the hour of the day in Military Time
 
 var day = $(".time-block")
 console.log(day) 
@@ -30,10 +30,16 @@ day.each(function () {
   var hourOfDay = $(this).attr("id").split("-")[1];
   //takes the id of (this) array and splits it into a new array without the (hour -) 
   //beginning portion of the ID,  assigning it the new value of (hourOfDay)
-  
+
   console.log(hourOfDay, currentTime)
   if (hourOfDay == currentTime){
     $(this).addClass("present")
+  }
+  else if (hourOfDay < currentTime){
+  $(this).addClass("past")
+  }
+  else if (hourOfDay > currentTime){
+    $(this).addClass("future")
   }
 })
 //compares if the hourOfDay meets the currentTime and if it does assigns it the present class.
