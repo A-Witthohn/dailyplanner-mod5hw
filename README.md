@@ -1,4 +1,4 @@
-# Mod-5 Workday Schedule
+# Mod-5 Workday Scheduler
 
 
 ## User Story
