@@ -23,11 +23,11 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 ## Mock-up
-![Work Day Scheduler](./Assets/Work%20Day%20Scheduler.png)
+![Workday Scheduler](./Assets/Work%20Day%20Scheduler.png)
 
 ## Deployment
 
-[Work Day Scheduler Deployment](https://a-witthohn.github.io/dailyplanner-mod5hw/)
+[Workday Scheduler Deployment](https://a-witthohn.github.io/dailyplanner-mod5hw/)
 
 [Git Hub Repository](https://github.com/A-Witthohn/dailyplanner-mod5hw)
 
