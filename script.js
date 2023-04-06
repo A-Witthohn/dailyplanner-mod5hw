@@ -15,7 +15,7 @@ $(function () {
   });
 
   //adds for loop to load previous saved text for all 24 hrs
-  for (var i = 0; i <= 24; i++) {
+  for (i = 0; i <= 24; i++) {
     var keyId = 'hour-' + i;
     var loadText = localStorage.getItem(keyId);
     //sets parameters of loop for loadText to pull from the correct stored location
