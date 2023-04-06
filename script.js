@@ -31,7 +31,7 @@ $(function () {
 
 
   var currentTime = dayjs().hour();
-  console.log(currentTime + " current time in military time")
+  console.log(currentTime + " current hour in military time")
   //logs the hour of the day in Military Time
 
   var day = $(".time-block")
