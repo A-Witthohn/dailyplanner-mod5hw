@@ -23,7 +23,7 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 ## Mock-up
-![Workday Scheduler](./Assets/Work%20Day%20Scheduler.png)
+![Workday Scheduler](./Assets/Workday%20Scheduler.png)
 
 ## Deployment
 
