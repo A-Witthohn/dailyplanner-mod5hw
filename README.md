@@ -1,4 +1,4 @@
-# Mod-5 Workday Scheduler
+# Mod-5 Workday Planner
 
 
 ## User Story
@@ -23,11 +23,11 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 ## Mock-up
-![Workday Scheduler](./Assets/Workday%20Scheduler.png)
+![Workday Schedule](./Assets/Workday%20Planner.png)
 
 ## Deployment
 
-[Workday Scheduler Deployment](https://a-witthohn.github.io/dailyplanner-mod5hw/)
+[Workday Schedule Deployment](https://a-witthohn.github.io/dailyplanner-mod5hw/)
 
 [Git Hub Repository](https://github.com/A-Witthohn/dailyplanner-mod5hw)
 
