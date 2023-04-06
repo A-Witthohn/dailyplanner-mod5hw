@@ -27,9 +27,9 @@ THEN the saved events persist
 
 ## Deployment
 
-[Work Day Scheduler Deployment](https://a-witthohn.github.io/module-5hw/)
+[Work Day Scheduler Deployment](https://a-witthohn.github.io/dailyplanner-mod5hw/)
 
-[Git Hub Repository](https://github.com/A-Witthohn/module-5hw)
+[Git Hub Repository](https://github.com/A-Witthohn/dailyplanner-mod5hw)
 
 
 ## License
