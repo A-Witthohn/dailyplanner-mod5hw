@@ -18,7 +18,7 @@ $(function () {
   for (var i = 0; i <= 24; i++) {
     var keyId = 'hour-' + i;
     var loadText = localStorage.getItem(keyId);
-     //sets parameters of loop for loadText to pull from the correct stored location
+    //sets parameters of loop for loadText to pull from the correct stored location
     if (loadText == null) {
       console.log(keyId + " nothing found local storage")
     }
@@ -43,7 +43,7 @@ $(function () {
     //takes the id of (this) array and splits it into a new array without the (hour -) 
     //beginning portion of the ID,  assigning it the new value of (hourOfDay)
 
-    console.log(hourOfDay, currentTime,  "  checking if hourOfDay = currentTime")
+    console.log(hourOfDay, currentTime, "  checking if hourOfDay = currentTime")
     if (hourOfDay == currentTime) {
       $(this).addClass("present")
       console.log("present class applied, hourOfDay = currentTime ")
