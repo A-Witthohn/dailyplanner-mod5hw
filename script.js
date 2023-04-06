@@ -1,14 +1,14 @@
 $(function () {
   //adds event listener on click for save button
   $('.saveBtn').on('click', function () {
-    var savedText = $(this).siblings('.description').val();
+    let savedText = $(this).siblings('.description').val();
     console.log(savedText)
     //logs text saved in description
-    var id = $(this).parent().attr('id');
+    let id = $(this).parent().attr('id');
     console.log(id)
     //logs ID of which hour the text above was saved
     localStorage.setItem(id, savedText);
-    var locallySavedText = localStorage.getItem(id);
+    let locallySavedText = localStorage.getItem(id);
     console.log("Saved value for " + id + " is " + locallySavedText);
     //logs the value of local storage by id
     //sets parent to ID and siblings to description. This means the savedText is the value shown inside description, when clicked it stores the text in to the appropriate ID
@@ -16,8 +16,8 @@ $(function () {
 
   //adds for loop to load previous saved text for all 24 hrs
   for (i = 0; i <= 24; i++) {
-    var keyId = 'hour-' + i;
-    var loadText = localStorage.getItem(keyId);
+    let keyId = 'hour-' + i;
+    let loadText = localStorage.getItem(keyId);
     //sets parameters of loop for loadText to pull from the correct stored location
     if (loadText == null) {
       console.log(keyId + " nothing found local storage")
@@ -30,16 +30,16 @@ $(function () {
   }
 
 
-  var currentTime = dayjs().hour();
+  const currentTime = dayjs().hour();
   console.log(currentTime + " current hour in military time")
   //logs the hour of the day in Military Time
 
-  var day = $(".time-block")
+  const day = $(".time-block")
   console.log(day, "logging hours of the day")
   //logs the entire day as an object array. specifically showing each div of time (hour - x ) as 1 part of the array
 
   day.each(function () {
-    var hourOfDay = $(this).attr("id").split("-")[1];
+    let hourOfDay = $(this).attr("id").split("-")[1];
     //takes the id of (this) array and splits it into a new array without the (hour -) 
     //beginning portion of the ID,  assigning it the new value of (hourOfDay)
 
